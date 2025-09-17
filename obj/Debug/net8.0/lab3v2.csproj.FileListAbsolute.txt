@@ -1,0 +1,15 @@
+C:\Users\Kristina\Desktop\OOP\lab3v2\bin\Debug\net8.0\lab3v2.exe
+C:\Users\Kristina\Desktop\OOP\lab3v2\bin\Debug\net8.0\lab3v2.deps.json
+C:\Users\Kristina\Desktop\OOP\lab3v2\bin\Debug\net8.0\lab3v2.runtimeconfig.json
+C:\Users\Kristina\Desktop\OOP\lab3v2\bin\Debug\net8.0\lab3v2.dll
+C:\Users\Kristina\Desktop\OOP\lab3v2\bin\Debug\net8.0\lab3v2.pdb
+C:\Users\Kristina\Desktop\OOP\lab3v2\obj\Debug\net8.0\lab3v2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kristina\Desktop\OOP\lab3v2\obj\Debug\net8.0\lab3v2.AssemblyInfoInputs.cache
+C:\Users\Kristina\Desktop\OOP\lab3v2\obj\Debug\net8.0\lab3v2.AssemblyInfo.cs
+C:\Users\Kristina\Desktop\OOP\lab3v2\obj\Debug\net8.0\lab3v2.csproj.CoreCompileInputs.cache
+C:\Users\Kristina\Desktop\OOP\lab3v2\obj\Debug\net8.0\lab3v2.sourcelink.json
+C:\Users\Kristina\Desktop\OOP\lab3v2\obj\Debug\net8.0\lab3v2.dll
+C:\Users\Kristina\Desktop\OOP\lab3v2\obj\Debug\net8.0\refint\lab3v2.dll
+C:\Users\Kristina\Desktop\OOP\lab3v2\obj\Debug\net8.0\lab3v2.pdb
+C:\Users\Kristina\Desktop\OOP\lab3v2\obj\Debug\net8.0\lab3v2.genruntimeconfig.cache
+C:\Users\Kristina\Desktop\OOP\lab3v2\obj\Debug\net8.0\ref\lab3v2.dll
