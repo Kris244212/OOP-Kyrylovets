@@ -1,24 +1,24 @@
-using System;
-
-namespace Lab3v2
+public class Car : Transport
 {
-    class Car : Transport
+    public int FuelConsumption { get; set; }
+
+ 
+    public Car(string name, int speed, int fuelConsumption) 
+        : base(name, speed)
     {
-        public override void Move(int speed)
-        {
-            Console.WriteLine($"Car moving at {speed} km/h");
-        }
+        FuelConsumption = fuelConsumption;
+        Console.WriteLine($"Car {Name} створений. Витрата пального: {FuelConsumption} л/100км.");
+    }
 
-        public override void Move(int speed, string direction)
-        {
-            Console.WriteLine($"Car moving at {speed} km/h towards {direction}");
-        }
+ 
+    ~Car()
+    {
+        Console.WriteLine($"Car {Name} знищено.");
+    }
 
-        // Додатковий метод для 3 аргументів
-        public void Move(int speed, string direction, string gear)
-        {
-            Console.WriteLine($"Car moving at {speed} km/h towards {direction} in {gear} gear");
-        }
+    public override void Move()
+    {
+        Console.WriteLine($"Car {Name} рухається зі швидкістю {Speed} км/год.");
     }
 }
 

@@ -1,25 +1,27 @@
 ﻿using System;
 
-namespace Lab3v2
+class Program
 {
-    class Program
+    static void Main(string[] args)
     {
-        static void Main()
+        // Масив об'єктів базового класу Transport
+        Transport[] transports = new Transport[]
         {
-            Transport t = new Transport();
-            t.Move(50);
-            t.Move(60, "north");
+            new Car("BMW", 200, 8),
+            new Bike("Trek", 30, "Гірський")
+        };
 
-            Car c = new Car();
-            c.Move(100);
-            c.Move(120, "east");
-            c.Move(80, "west", "third");
+        Console.WriteLine("=== Демонстрація поліморфізму ===\n");
 
-            Bike b = new Bike();
-            b.Move(30);
-            b.Move(25, "south");
-            b.Move(20, "mountain trail");
+        foreach (var t in transports)
+        {
+            t.Move();   // Виклик перевизначеного методу
+            Console.WriteLine();
         }
+
+        Console.WriteLine("\nПрограма завершила роботу.");
     }
 }
+
+
 

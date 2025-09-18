@@ -1,17 +1,22 @@
-using System;
-
-namespace Lab3v2
+public abstract class Transport
 {
-    class Transport
-    {
-        public virtual void Move(int speed)
-        {
-            Console.WriteLine($"Transport moving at {speed} km/h");
-        }
+    public string Name { get; set; }
+    public int Speed { get; set; }
 
-        public virtual void Move(int speed, string direction)
-        {
-            Console.WriteLine($"Transport moving at {speed} km/h towards {direction}");
-        }
+  
+    public Transport(string name, int speed)
+    {
+        Name = name;
+        Speed = speed;
+        Console.WriteLine($"Transport {Name} створений зі швидкістю {Speed} км/год.");
     }
+
+
+    ~Transport()
+    {
+        Console.WriteLine($"Transport {Name} знищено.");
+    }
+
+    public abstract void Move();
 }
+
