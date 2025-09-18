@@ -1,7 +1,13 @@
-public class Bike : Transport
+using System;
+
+namespace Lab3v2
 {
-    public override double Move(double distance)
+    class Bike : Transport
     {
-        return 0.0; // Велосипед не витрачає пального
+        public override void Move(int speed)
+        {
+            Console.WriteLine($"Bike moving at {speed} km/h");
+        }
+
     }
 }
