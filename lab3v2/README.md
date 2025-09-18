@@ -10,7 +10,11 @@
 
 
 ![Скріншот виконання програми](../screenshots/screenshot.png)
-![Скріншот виконання програми](../screenshots1/screenshot.png)
+![Скріншот виконання програми](../screenshots/screenshot1.png)
+
+
+
+
 
 
 
