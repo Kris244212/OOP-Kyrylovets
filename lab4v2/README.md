@@ -17,3 +17,7 @@
 ![Скріншот виконання програми](../screenshots/screenshot2.png)
 
 
+
+
+
+
