@@ -14,4 +14,6 @@
 
 
 
-![Скріншот виконання програми](./screenshots/screenshot2.png)
+![Скріншот виконання програми](../screenshots/screenshot2.png)
+
+
