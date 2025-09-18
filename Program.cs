@@ -1,37 +1,25 @@
 ﻿using System;
-using System.Collections.Generic;
 
-class Program
+namespace Lab3v2
 {
-    static void Main()
+    class Program
     {
-        List<Transport> transports = new List<Transport>
+        static void Main()
         {
-            new Car(7.5),  // Авто з витратою 7.5 л/100 км
-            new Bike()
-        };
+            Transport t = new Transport();
+            t.Move(50);
+            t.Move(60, "north");
 
-        double distance = 100.0;
-        double totalFuel = 0.0;
+            Car c = new Car();
+            c.Move(100);
+            c.Move(120, "east");
+            c.Move(80, "west", "third");
 
-        foreach (var t in transports)
-        {
-            double fuel = t.Move(distance);
-            totalFuel += fuel;
-            Console.WriteLine($"Витрати пального на {distance} км: {fuel} л");
+            Bike b = new Bike();
+            b.Move(30);
+            b.Move(25, "south");
+            b.Move(20, "mountain trail");
         }
-
-        Console.WriteLine($"Загальні витрати пального: {totalFuel} л");
     }
 }
-class Program
-{
-    static void Main(string[] args)
-    {
-        Transport car = new Car("BMW", 7.5);
-        Transport bike = new Bike("Trek");
 
-        car.ShowInfo();
-        bike.ShowInfo();
-    }
-}

@@ -1,19 +1,17 @@
-public abstract class Transport
-{
-    public abstract double Move(double distance);
-}
-abstract class Transport
-{
-    public string Name { get; set; }
+using System;
 
-    public Transport(string name)
+namespace Lab3v2
+{
+    class Transport
     {
-        Name = name;
-    }
+        public virtual void Move(int speed)
+        {
+            Console.WriteLine($"Transport moving at {speed} km/h");
+        }
 
-    public abstract double FuelConsumption(); // абстрактний метод
-    public virtual void ShowInfo()            // віртуальний метод
-    {
-        Console.WriteLine($"Транспорт: {Name}");
+        public virtual void Move(int speed, string direction)
+        {
+            Console.WriteLine($"Transport moving at {speed} km/h towards {direction}");
+        }
     }
 }
